@@ -283,12 +283,6 @@ st.title("🔮 Predict Future Breakdown (24hr Ahead)")
 
 
 
-if st.button("Train Model"):
-    if training_file_path:
-        with st.spinner("Training ensemble model..."):
-            train_ensemble_model_shifted_label(training_file_path, model_folder_path)
-    else:
-        st.warning("Please upload the training file!")
 
 if st.button("Predict Future Breakdown"):
     if test_file_path:
