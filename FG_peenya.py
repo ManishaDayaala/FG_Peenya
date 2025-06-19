@@ -128,9 +128,9 @@ def process_all_files():
 
     # List of 12 unique asset names
     assets_list = [
-        "Dry off oven Blower FDE ", "Dry off oven Blower FNDE ","Dry off oven Blower MDE ",
-        "FG Primary Booth Exhaust Fan FDE ", "FG Primary Booth Exhaust Fan FNDE ", "FG Primary Booth Exhaust Fan MDE ", 
-        "FG Topcoat Booth Exhaust Fan FDE ", "FG Topcoat Booth Exhaust Fan FNDE", "FG Topcoat Booth Exhaust Fan MDE"]
+        "Dry off oven Blower FDE", "Dry off oven Blower FNDE","Dry off oven Blower MDE",
+        "FG Primary Booth Exhaust Fan FDE", "FG Primary Booth Exhaust Fan FNDE", "FG Primary Booth Exhaust Fan MDE", 
+        "FG Topcoat Booth Exhaust Fan FDE", "FG Topcoat Booth Exhaust Fan FNDE", "FG Topcoat Booth Exhaust Fan MDE"]
 
     
     # Columns to extract for each asset, corresponding to F, I, L, O, R, U
