@@ -645,10 +645,7 @@ else:
         # Load test and threshold data
         test_df = pd.read_excel(test_file_path)
         threshold_df = pd.read_excel(threshold_file_path)
-        # Show available columns in the dataset
-        with st.expander("📊 Show available columns in test data"):
-              st.write("Below are the column names found in the test data file:")
-              st.code("\n".join(test_df.columns), language="text")
+       
 
 
         if test_df.empty:
